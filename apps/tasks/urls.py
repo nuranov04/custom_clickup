@@ -8,3 +8,5 @@ router.register(
     prefix='tasks',
     viewset=TaskApiViewSet
 )
+
+urlpatterns = router.urls
